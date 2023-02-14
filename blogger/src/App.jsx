@@ -1,5 +1,11 @@
+import Background from "./components/Background";
+
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div className="">
+      <Background />
+    </div>
+  );
 }
 
 export default App;
