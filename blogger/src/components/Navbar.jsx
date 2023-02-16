@@ -2,15 +2,12 @@ import { useState } from "react";
 import book from "../assets/book.png";
 
 const Navbar = () => {
-  const NavLinks = [
-    { name: "BLOG", link: "/blog" },
-    { name: "HELLO", link: "hello" },
-  ];
+  const NavLinks = [{ name: "BLOG", link: "/blog" }];
 
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="shadow-md w-full fixed top-0 left-0">
+    <div className="hadow-md w-full fixed top-0 left-0">
       <div className="md:flex bg-white sm:px-4 md:px-10 px-7 py-2.5 dark:bg-gray-200 fixed w-full z-20 top-0 left-0">
         <div className="container flex flex-wrap items-center mx-auto font-bold text-2xl font-[Poppins]">
           <span className="text-3xl text-black mr-1 pt-2">
