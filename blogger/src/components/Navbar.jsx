@@ -2,7 +2,10 @@ import { useState } from "react";
 import book from "../assets/book.png";
 
 const Navbar = () => {
-  const NavLinks = [{ name: "BLOG", link: "/blog" }];
+  const NavLinks = [
+    { name: "HOME", link: "/" },
+    { name: "BLOG", link: "/blog" },
+  ];
 
   const [open, setOpen] = useState(false);
 
@@ -37,7 +40,7 @@ const Navbar = () => {
           {NavLinks.map((link) => (
             <li
               key={link.name}
-              className="md:ml-8 text-base md:my-0 my-7 whitespace-nowrap"
+              className="md:ml-8 text-base md:my-0 my-7 whitespace-nowrap font-[Poppins]"
             >
               <a
                 className="block content-center py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-gray-300 dark:text- dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
