@@ -1,20 +1,18 @@
 Blogger by Elisha Nazar
 
-This short project is a webpage, mostly the frontend, where anyone in the world could add, read or save blogposts.
-Somewhere safe to share your mind without being judged and just be who you are!
-This project is built from React.js and TailwindCSS, it follows reacts file structure and some good practices aswell.
+This short project is a website, primarily the frontend, where anyone in the world can add, read, or save blog posts. Somewhere safe to express yourself without fear of being judged and to simply be yourself! This project is built with React.js and TailwindCSS, and it adheres to the react file structure as well as some best practices.
 
-My src contains two extra files, assets and components: assets is a file with all the pictures and icons used in this project.
+My src folder contains two additional files: assets and components. assets is a file that contains all of the images and icons used in this project.
 
-Components holds all the different components that. where created, 
+Components contains all of the various components that were created.
 
-Navbar that follows you wherever you go for easy acces back to Home.
+Navbar that follows you around for easy access to Home, or Blog.
 
-Home that is the initial route where the welcome is, giving you a short insight on what the page is about. Home also contains other componets within as imports which are external componets, sucha as ImageOne, ImageTwo, ImageThree, TextBox and TextBox2.
-The images files uses the react-parallax library added from npm for the popouler parallax feauter. The Textbox files have simple text to make the welcome page look more alive and welcoming.
+Home is the initial route where the welcome appears, giving you a brief overview of what the page is about. Home also contains imports that are external components, such as ImageOne, ImageTwo, ImageThree, TextBox, and TextBox2.
+For the popular parallax feature, the images files make use of the react-parallax library from npm. Simple text is used in the Text box files to make the welcome page appear more alive and welcoming.
 
-Blog is where the default categoriy of ¨AI Generated¨ is, which has more subcategories for the user to choose from and read, the webpage is not done but this is a template and has great potential for me as the creater to upgrade in the future when i have more knowledge.
+The default category of AI Generated that is in  blog for now, which has more subcategories for the user to choose from and read, the webpage is not finished but this is a template and has great potential for me as the creator to upgrade in the future when I have more knowledge.
 
-I did consider finishing the entire project complete with a backend and more features, but i took the callenge to lighly and undearestimated the work that had to be done, i did not finish because it would take too long and i simply dont have the time right now. In the future i can see this becoming something big and when time comes i will finish it.
+I considered finishing the entire project, complete with a backend and additional features, but I took the challenge too lightly and underestimated the amount of work that needed to be done; I did not finish because it would take too long, and I simply do not have the time right now. I see this growing into something significant in the future, and when the time comes, I will complete it.
 
-I created something that i feel is very interessting and and could be helpful for people with a big imagination and generally some people who wants to share their minds with people ar outside your circle and just have your thought heard... in the art of a story, as a book! :) 
+I created something that I think is very interesting and could be useful for people with a lot of imaginations and generally some people who want to share their minds with people outside their circle and just have their thoughts heard... in the form of a story, as a book!:)
