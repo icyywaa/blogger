@@ -7,9 +7,9 @@ const ImageOne = () => (
     bgImage={BG3}
     strength={800}
   >
-    <div className="uppercase text-white p-4 text-2xl bg-slate-800 tracking-wide font-[Poppins]">
+    <button className="uppercase text-white p-4 text-2xl bg-slate-800 tracking-wide font-[Poppins]">
       Make it count!
-    </div>
+    </button>
   </Parallax>
 );
 
