@@ -2,7 +2,7 @@ import React from "react";
 
 const TextBox = () => {
   return (
-    <div className="text-justify p-10">
+    <div className="text-justify p-10 bg-gray-200">
       <h3 className="uppercase text-xl text-center p-4">
         Random text from ChatGPT on the series 'YOU'
       </h3>
